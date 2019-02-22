@@ -8,5 +8,5 @@ notas = int(input("ingrese la cantidad de notas:."))
 for i in range (notas):
     N = int(input("ingrese nota:."))
    suma = suma + N
-   promedio = suma / notas
+promedio = suma / notas
 print("el promedio es:.{}".format(promedio))
